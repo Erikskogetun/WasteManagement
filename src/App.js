@@ -147,19 +147,6 @@ class App extends React.Component {
                 <span className="ProfileName">Edward Alpsten</span>
               </a>
               <a
-                href="https://www.linkedin.com/in/erik-skogetun-55bbaa94/"
-                className="ProfileWrapper"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <img
-                  className="ProfilePicture"
-                  src={erik}
-                  alt={"Erik Skogetun"}
-                />
-                <span className="ProfileName">Erik Skogetun</span>
-              </a>
-              <a
                 href="https://www.linkedin.com/in/lukas-ekberg/"
                 className="ProfileWrapper"
                 rel="noopener noreferrer"
@@ -185,6 +172,20 @@ class App extends React.Component {
                 />
                 <span className="ProfileName">Jonathan Rintala</span>
               </a>
+              <a
+                href="https://www.linkedin.com/in/erik-skogetun-55bbaa94/"
+                className="ProfileWrapper"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  className="ProfilePicture"
+                  src={erik}
+                  alt={"Erik Skogetun"}
+                />
+                <span className="ProfileName">Erik Skogetun</span>
+              </a>
+
               <a
                 href="https://www.linkedin.com/in/sebastian-st%C3%A5hl-66553bb8/"
                 className="ProfileWrapper"
