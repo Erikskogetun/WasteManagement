@@ -1,0 +1,55 @@
+.SlideShowContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+}
+
+.slick-list {
+  overflow: visible;
+}
+
+.SlickNextButton,
+.SlickPreviousButton {
+  position: absolute;
+  width: 50px;
+  top: 50%;
+  transition: opacity 0.5s;
+  cursor: pointer;
+  box-shadow: 10px black;
+  opacity: 0.75;
+}
+
+.SlickNextButton:hover,
+.SlickPreviousButton:hover {
+  opacity: 1;
+}
+
+.SlickPreviousButton {
+  left: -25px;
+  transform: translate(-100%, -100%);
+}
+
+.SlickNextButton {
+  right: -25px;
+  transform: translate(100%, -100%);
+}
+
+.SlideShowImage {
+  position: relative;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 16px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  max-height: 60vh;
+  max-width: 100%;
+
+  border-style: solid 2px #283430;
+}
+
+.ImageDescription {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+}
