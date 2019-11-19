@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/WasteManagement/static/css/main.ce8b1b64.chunk.css",
+    "main.css": "/WasteManagement/static/css/main.82f5ddd3.chunk.css",
     "main.js": "/WasteManagement/static/js/main.84bc447c.chunk.js",
     "main.js.map": "/WasteManagement/static/js/main.84bc447c.chunk.js.map",
     "runtime-main.js": "/WasteManagement/static/js/runtime-main.6b22482b.js",
@@ -9,10 +9,10 @@
     "static/js/2.16e552c7.chunk.js": "/WasteManagement/static/js/2.16e552c7.chunk.js",
     "static/js/2.16e552c7.chunk.js.map": "/WasteManagement/static/js/2.16e552c7.chunk.js.map",
     "index.html": "/WasteManagement/index.html",
-    "precache-manifest.44909c59e3ffd7e4aa6af6e5e8c31e54.js": "/WasteManagement/precache-manifest.44909c59e3ffd7e4aa6af6e5e8c31e54.js",
+    "precache-manifest.34272baed235a5a7ff83b1401fc5166a.js": "/WasteManagement/precache-manifest.34272baed235a5a7ff83b1401fc5166a.js",
     "service-worker.js": "/WasteManagement/service-worker.js",
     "static/css/2.8ef44fce.chunk.css.map": "/WasteManagement/static/css/2.8ef44fce.chunk.css.map",
-    "static/css/main.ce8b1b64.chunk.css.map": "/WasteManagement/static/css/main.ce8b1b64.chunk.css.map",
+    "static/css/main.82f5ddd3.chunk.css.map": "/WasteManagement/static/css/main.82f5ddd3.chunk.css.map",
     "static/media/age.png": "/WasteManagement/static/media/age.d8a124ac.png",
     "static/media/awareness.png": "/WasteManagement/static/media/awareness.59822f0c.png",
     "static/media/bin.png": "/WasteManagement/static/media/bin.b1079688.png",
@@ -41,7 +41,7 @@
     "static/js/runtime-main.6b22482b.js",
     "static/css/2.8ef44fce.chunk.css",
     "static/js/2.16e552c7.chunk.js",
-    "static/css/main.ce8b1b64.chunk.css",
+    "static/css/main.82f5ddd3.chunk.css",
     "static/js/main.84bc447c.chunk.js"
   ]
 }
