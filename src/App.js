@@ -195,9 +195,9 @@ class App extends React.Component {
                 <img
                   className="ProfilePicture"
                   src={sebastian}
-                  alt={"Sebastian Stål"}
+                  alt={"Sebastian Ståhl"}
                 />
-                <span className="ProfileName">Sebastian Stål</span>
+                <span className="ProfileName">Sebastian Ståhl</span>
               </a>
             </div>
           </Fade>
