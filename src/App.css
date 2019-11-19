@@ -44,7 +44,8 @@
 .BodyRow {
   position: relative;
   display: flex;
-  justify-content: center;
+
+  justify-content: space-around;
   align-items: center;
   height: 100vh;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
@@ -60,7 +61,7 @@
 }
 
 .InitialDescription {
-  width: 50%;
+  max-width: 50%;
   font-style: italic;
 }
 
@@ -71,22 +72,27 @@
 
 .ProfilesContainer {
   max-height: 100%;
-  max-width: 20%;
+  max-width: 25%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 10vmin;
 }
 
 .ProfileWrapper {
   display: flex;
   flex-direction: row;
   align-items: center;
-  text-align: center;
-  font-size: 3vmin;
-  white-space: nowrap;
+
+  font-size: calc(2px + 2.2vmin);
   user-select: none;
   text-decoration: none;
+  white-space: nowrap;
+}
+
+@media (max-width: 800px) {
+  .ProfileWrapper {
+    flex-direction: column;
+  }
 }
 
 .ProfileWrapper:not(:first-child) {
@@ -112,11 +118,11 @@
 .ProfilePicture {
   display: flex;
   border-radius: 50%;
-  margin-right: 3vmin;
+  margin-right: 2vmin;
   flex-basis: 1px;
   flex-grow: 0;
   object-fit: contain;
-  max-width: 30%;
+  max-width: 25%;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
   transition: filter 0.3s, transform 0.3s, box-shadow 0.3s;
   pointer-events: none;
