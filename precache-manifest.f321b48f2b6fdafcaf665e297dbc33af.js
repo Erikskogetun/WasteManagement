@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e00be175b70b163bdc390e8e63bb7862",
+    "revision": "b68810a8dffc8a3313b4b4aa86cfd196",
     "url": "/WasteManagement/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/WasteManagement/static/css/2.8ef44fce.chunk.css"
   },
   {
-    "revision": "ea37b6d05a674023aa85",
-    "url": "/WasteManagement/static/css/main.1a589fe4.chunk.css"
+    "revision": "c605f67d37b50aa0c334",
+    "url": "/WasteManagement/static/css/main.5808c188.chunk.css"
   },
   {
     "revision": "8b5dd649ed5426b10d7c",
     "url": "/WasteManagement/static/js/2.16e552c7.chunk.js"
   },
   {
-    "revision": "ea37b6d05a674023aa85",
-    "url": "/WasteManagement/static/js/main.84bc447c.chunk.js"
+    "revision": "c605f67d37b50aa0c334",
+    "url": "/WasteManagement/static/js/main.cda7b387.chunk.js"
   },
   {
     "revision": "eaff88992a165fcfb009",
