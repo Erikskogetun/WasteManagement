@@ -42,7 +42,6 @@ class Slideshow extends React.Component {
       nextArrow: <SampleNextArrow color={props.arrowColor} />,
       prevArrow: <SamplePrevArrow color={props.arrowColor} />,
       touchMove: true,
-      centerPadding: "0px",
       fade: true
     };
 

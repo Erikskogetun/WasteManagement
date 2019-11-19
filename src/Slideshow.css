@@ -13,8 +13,8 @@
 }
 
 .slick-list {
-  overflow: visible;
   align-items: center;
+  overflow: visible;
 }
 
 .slick-slide {
@@ -31,12 +31,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-@media (max-width: 900px) {
-  .slick-list {
-    overflow: hidden;
-  }
 }
 
 .SlickNextButton,
