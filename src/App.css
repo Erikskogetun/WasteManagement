@@ -89,7 +89,7 @@
   white-space: nowrap;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .ProfileWrapper {
     flex-direction: column;
   }
@@ -126,6 +126,12 @@
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
   transition: filter 0.3s, transform 0.3s, box-shadow 0.3s;
   pointer-events: none;
+}
+
+@media (max-width: 900px) {
+  .ProfilePicture {
+    max-width: 40%;
+  }
 }
 
 .SectionTitle,

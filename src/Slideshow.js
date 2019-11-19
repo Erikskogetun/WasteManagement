@@ -38,10 +38,11 @@ class Slideshow extends React.Component {
       speed: 500,
       swipe: true,
       draggable: true,
-      cssEase: "linear",
+      swipeToSlide: true,
       nextArrow: <SampleNextArrow color={props.arrowColor} />,
       prevArrow: <SamplePrevArrow color={props.arrowColor} />,
-
+      touchMove: true,
+      centerPadding: "0px",
       fade: true
     };
 

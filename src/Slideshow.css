@@ -8,12 +8,35 @@
 
 @media (max-width: 900px) {
   .SlideShowContainer {
-    width: 75%;
+    width: 80%;
   }
 }
 
 .slick-list {
   overflow: visible;
+  align-items: center;
+}
+
+.slick-slide {
+  display: flex;
+  align-items: center;
+}
+
+.slick-track {
+  display: flex;
+  align-items: center;
+}
+
+.slick-track .slick-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 900px) {
+  .slick-list {
+    overflow: hidden;
+  }
 }
 
 .SlickNextButton,
@@ -25,6 +48,13 @@
   cursor: pointer;
   box-shadow: 10px black;
   opacity: 0.75;
+}
+
+@media (max-width: 900px) {
+  .SlickPreviousButton,
+  .SlickNextButton {
+    display: none;
+  }
 }
 
 .SlickNextButton:hover,
@@ -44,13 +74,12 @@
 
 .SlideShowImage {
   position: relative;
-  width: 100%;
-  border-radius: 10px;
-  box-shadow: 0 0 16px 2px rgba(0, 0, 0, 0.2);
-  overflow: hidden;
-  max-height: 60vh;
   max-width: 100%;
-
+  max-height: 60vh;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
   border-style: solid 2px #283430;
 }
 
