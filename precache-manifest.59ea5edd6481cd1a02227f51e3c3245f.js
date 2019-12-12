@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2361bc8737e05a08134e922f5ec7069b",
+    "revision": "b8d475391f8ea64a60b1136b3430909a",
     "url": "/WasteManagement/index.html"
   },
   {
-    "revision": "8b5dd649ed5426b10d7c",
+    "revision": "b5ee9b021f2bad8c14bf",
     "url": "/WasteManagement/static/css/2.8ef44fce.chunk.css"
   },
   {
-    "revision": "efcb97eff29bae0c5d3b",
-    "url": "/WasteManagement/static/css/main.fd78abcf.chunk.css"
+    "revision": "b327e16db2a69be829ee",
+    "url": "/WasteManagement/static/css/main.1465cd12.chunk.css"
   },
   {
-    "revision": "8b5dd649ed5426b10d7c",
-    "url": "/WasteManagement/static/js/2.16e552c7.chunk.js"
+    "revision": "b5ee9b021f2bad8c14bf",
+    "url": "/WasteManagement/static/js/2.6ac71cce.chunk.js"
   },
   {
-    "revision": "efcb97eff29bae0c5d3b",
-    "url": "/WasteManagement/static/js/main.7135255c.chunk.js"
+    "revision": "b327e16db2a69be829ee",
+    "url": "/WasteManagement/static/js/main.03526caf.chunk.js"
   },
   {
     "revision": "eaff88992a165fcfb009",
@@ -26,6 +26,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d8a124ac9a63d81f7dd91db3ca0d3191",
     "url": "/WasteManagement/static/media/age.d8a124ac.png"
+  },
+  {
+    "revision": "6f53f886458de06c4e0e3d503e2ab898",
+    "url": "/WasteManagement/static/media/allImages.6f53f886.png"
+  },
+  {
+    "revision": "077613251f4f68c2c8e07f7bda643a86",
+    "url": "/WasteManagement/static/media/arrowdown.07761325.png"
   },
   {
     "revision": "59822f0c4c6643b360ca029e770e4eb2",
@@ -40,8 +48,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/WasteManagement/static/media/co2.40c91a39.png"
   },
   {
+    "revision": "e2d35b7b377ad1c07deb13fb53ccb8da",
+    "url": "/WasteManagement/static/media/define.e2d35b7b.png"
+  },
+  {
     "revision": "1253d3b4d186a975e3be8453091089fb",
     "url": "/WasteManagement/static/media/edward.1253d3b4.jpeg"
+  },
+  {
+    "revision": "d02a04505a0fccea73ac116e34e16e6c",
+    "url": "/WasteManagement/static/media/empathize.d02a0450.png"
   },
   {
     "revision": "021741b2b0ddbc60cfbebacb21ddb3fc",
@@ -50,6 +66,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f667457c4862f00f18f561440f74bc9f",
     "url": "/WasteManagement/static/media/gender.f667457c.png"
+  },
+  {
+    "revision": "992859b81daa124ee8f42892f3dc77d7",
+    "url": "/WasteManagement/static/media/ideate.992859b8.png"
   },
   {
     "revision": "ffe90799b7005d9b464622dfbfb243ae",
@@ -66,6 +86,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b717301a17ad404eb3d91afe407a639a",
     "url": "/WasteManagement/static/media/motivation.b717301a.png"
+  },
+  {
+    "revision": "3098e006f5f102ea9085850e1f6255fd",
+    "url": "/WasteManagement/static/media/prototype.3098e006.png"
+  },
+  {
+    "revision": "8b97dff59035e17111fc86234533c2d6",
+    "url": "/WasteManagement/static/media/prototypeOne.8b97dff5.png"
+  },
+  {
+    "revision": "b3b7d23a0ee681a85a470df6a3174e1b",
+    "url": "/WasteManagement/static/media/prototypeThree.b3b7d23a.png"
+  },
+  {
+    "revision": "ead920427a0398035d20ffa843212f7a",
+    "url": "/WasteManagement/static/media/prototypeTwo.ead92042.png"
   },
   {
     "revision": "283771475190d7712c5aca4da4951c80",
@@ -114,6 +150,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f97e3bbf73254b0112091d0192f17aec",
     "url": "/WasteManagement/static/media/slick.f97e3bbf.svg"
+  },
+  {
+    "revision": "d8adee9304c21e7db20ef6dc204c0fbe",
+    "url": "/WasteManagement/static/media/test.d8adee93.png"
   },
   {
     "revision": "5b3c7b1e134224acdc44c56e77edea3d",
