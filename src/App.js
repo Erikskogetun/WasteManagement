@@ -267,7 +267,7 @@ class App extends React.Component {
             <div className="SectionContent">
               <div className="InfoPartContainer">
                 <span>• All team-members participated</span>
-                <span>• Allowed for brainstorming with few limitation</span>
+                <span>• Allowed for brainstorming with few limitations</span>
               </div>
             </div>
             <img className="DownArrowIcon" src={arrowDown} alt="" />
@@ -317,7 +317,7 @@ class App extends React.Component {
               <span>The prototype:</span>
               <img className="FreeImageWrapper" src={highfiAllImages} alt="" />
               <span>The survey:</span>
-              <Slideshow arrowColor="white" imgList={surveyImages} />
+              <Slideshow arrowColor="black" imgList={surveyImages} />
             </div>
           </div>
           <div className="InfoSection">
