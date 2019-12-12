@@ -7,6 +7,13 @@ import Slideshow from "./Slideshow";
 
 import upBlack from "./assets/icons/upBlack.png";
 import upWhite from "./assets/icons/upWhite.png";
+import arrowDown from "./assets/icons/arrowdown.png";
+
+import empathizeImage from "./assets/designthinking/empathize.png";
+import defineImage from "./assets/designthinking/define.png";
+import ideateImage from "./assets/designthinking/ideate.png";
+import prototypeImage from "./assets/designthinking/prototype.png";
+import testImage from "./assets/designthinking/test.png";
 
 import binImage from "./assets/details/bin.png";
 import paperImage from "./assets/details/paper.png";
@@ -28,6 +35,12 @@ import sketchThree from "./assets/sketches/sketch3.jpg";
 import sketchFour from "./assets/sketches/sketch4.jpg";
 import sketchFive from "./assets/sketches/sketch5.jpg";
 import sketchSix from "./assets/sketches/sketch6.jpg";
+
+import lowfiPrototypeOne from "./assets/lowfi/prototypeOne.png";
+import lowfiPrototypeTwo from "./assets/lowfi/prototypeTwo.png";
+import lowfiPrototypeThree from "./assets/lowfi/prototypeThree.png";
+
+import highfiAllImages from "./assets/highfi/allImages.png";
 
 import edward from "./assets/profiles/edward.jpeg";
 import erik from "./assets/profiles/erik.jpg";
@@ -55,6 +68,12 @@ const sketchImages = [
   { url: sketchSix }
 ];
 
+const lowfiImages = [
+  { url: lowfiPrototypeOne },
+  { url: lowfiPrototypeTwo },
+  { url: lowfiPrototypeThree }
+];
+
 const scrollToRef = function(refList) {
   for (var i = 0; i < refList.length; i++) {
     if (refList[i].current.offsetTop > window.pageYOffset) {
@@ -78,11 +97,7 @@ const meshImageList = [
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.sectionRefs = [
-      React.createRef(),
-      React.createRef(),
-      React.createRef()
-    ];
+    this.sectionRefs = [React.createRef(), React.createRef()];
 
     this.meshImageListWithId = meshImageList.map((item, index) => {
       item.id = index;
@@ -125,7 +140,9 @@ class App extends React.Component {
 
     return (
       <div className="App">
-        <div ref={this.sectionRefs[0]} className="BodyRow">
+        <div ref={this.sectionRefs[0]} className="HeaderRow">
+          {meshImagesWhite}
+
           <span className="InitialDescription">
             Could a feedback system directed at residents of
             <span className="TextHighLight"> Stockholm Royal Seaport </span> be
@@ -203,44 +220,149 @@ class App extends React.Component {
           </Fade>
 
           <Fade bottom>
-            <div
-              className="ScrollContainer"
-              onClick={() => scrollToRef(this.sectionRefs)}
-            >
-              <img className="ScrollButton" src={upWhite} alt="upBlack" />
-              <span className="ChevronDown">V</span>
+            <div className="ScrollContainer">
+              <div
+                className="ScrollWrapper"
+                onClick={() => scrollToRef(this.sectionRefs)}
+              >
+                <img className="ScrollButton" src={upWhite} alt="upWhite" />
+                <span className="ChevronDown">V</span>
+              </div>
             </div>
           </Fade>
         </div>
         <div ref={this.sectionRefs[1]} className="BodyRow">
-          {meshImagesBlack}
-
-          <div className="SectionTitle">1. Sketch Sessions</div>
-          <Slideshow arrowColor="black" imgList={sketchImages} />
-          <Fade bottom>
-            <div
-              className="ScrollContainer"
-              onClick={() => scrollToRef(this.sectionRefs)}
-            >
-              <img className="ScrollButton" src={upBlack} alt="upBlack" />
-              <span className="ChevronDown">V</span>
+          <div className="InfoSection">
+            <div className="SectionHeaderContainer">
+              <div className="SectionTitle">1. Pre Study</div>
+              <div className="SectionIcons">
+                <img className="SectionTitleIcon" src={defineImage} alt="" />
+                <img className="SectionTitleIcon" src={empathizeImage} alt="" />
+              </div>
             </div>
-          </Fade>
-        </div>
-        <div ref={this.sectionRefs[2]} className="BodyRow">
-          {meshImagesWhite}
-          <div className="SectionTitleInv">2. Survey</div>
+            <div className="SectionContent">
+              <div className="InfoPartContainer">
+                <span>
+                  • Contextual interviews with residents and business owners
+                </span>
+                <span>
+                  • A litterature study on feedback, behavior and education
+                </span>
+              </div>
+              <img className="DownArrowIcon" src={arrowDown} alt="" />
 
-          <Slideshow arrowColor="white" imgList={surveyImages} />
-          <Fade bottom>
-            <div
-              className="ScrollContainer"
-              onClick={() => scrollToRef(this.sectionRefs)}
-            >
-              <img className="ScrollButton" src={upWhite} alt="upBlack" />
-              <span className="ChevronUp">V</span>
+              <span>
+                Research question - What are the opportunities to improve waste
+                management in SRS?
+              </span>
             </div>
-          </Fade>
+          </div>
+          <div className="InfoSection">
+            <div className="SectionHeaderContainer">
+              <div className="SectionTitle">2. Sketches</div>
+              <div className="SectionIcons">
+                <img className="SectionTitleIcon" src={ideateImage} alt="" />
+              </div>
+            </div>
+            <div className="SectionContent">
+              <div className="InfoPartContainer">
+                <span>• All team-members participated</span>
+                <span>• Allowed for brainstorming with few limitation</span>
+              </div>
+            </div>
+            <img className="DownArrowIcon" src={arrowDown} alt="" />
+
+            <span>The sketches:</span>
+            <Slideshow arrowColor="black" imgList={sketchImages} />
+          </div>
+          <div className="InfoSection">
+            <div className="SectionHeaderContainer">
+              <div className="SectionTitle">3. Low-fi prototype</div>
+              <div className="SectionIcons">
+                <img className="SectionTitleIcon" src={prototypeImage} alt="" />
+              </div>
+            </div>
+            <div className="SectionContent">
+              <div className="InfoPartContainer">
+                <span>• Three low-fi prototypes, based on sketches</span>
+                <span>• Used Balsamiq</span>
+                <span>
+                  • Fast and efficient way to prototype with low detail
+                </span>
+              </div>
+              <img className="DownArrowIcon" src={arrowDown} alt="" />
+
+              <span>The low-fi prototypes:</span>
+              <Slideshow arrowColor="black" imgList={lowfiImages} />
+            </div>
+          </div>
+          <div className="InfoSection">
+            <div className="SectionHeaderContainer">
+              <div className="SectionTitle">4. High-fi prototype</div>
+              <div className="SectionIcons">
+                <img className="SectionTitleIcon" src={prototypeImage} alt="" />
+              </div>
+            </div>
+            <div className="SectionContent">
+              <div className="InfoPartContainer">
+                <span>
+                  • One high-fi prototype, synthesis of low-fi prototypes
+                </span>
+                <span>• Used AdobeXD</span>
+                <span>
+                  • Used findings from a survey to understand user needs
+                </span>
+              </div>
+              <img className="DownArrowIcon" src={arrowDown} alt="" />
+              <span>The prototype:</span>
+              <img className="FreeImageWrapper" src={highfiAllImages} alt="" />
+              <span>The survey:</span>
+              <Slideshow arrowColor="white" imgList={surveyImages} />
+            </div>
+          </div>
+          <div className="InfoSection">
+            <div className="SectionHeaderContainer">
+              <div className="SectionTitle">5. The final application</div>
+              <div className="SectionIcons">
+                <img className="SectionTitleIcon" src={prototypeImage} alt="" />
+              </div>
+            </div>
+            <div className="SectionContent">
+              <div className="InfoPartContainer">
+                <span>
+                  • One functional application, synthesis of high-fi prototypes
+                </span>
+                <span>• Used React Native</span>
+              </div>
+              <img className="DownArrowIcon" src={arrowDown} alt="" />
+              <span>The final app:</span>
+              <div className="VideoContainer">
+                <iframe
+                  className="VideoWrapper"
+                  title="video"
+                  width="100%"
+                  height="100%"
+                  src="https://www.youtube.com/embed/i_GksmA2eT8"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+          <div className="InfoSection">
+            <div>Thank you for reading!</div>
+
+            <Fade bottom>
+              <div
+                className="ScrollWrapper"
+                onClick={() => scrollToRef(this.sectionRefs)}
+              >
+                <img className="ScrollButton" src={upBlack} alt="upBlack" />
+                <span className="ChevronUp">V</span>
+              </div>
+            </Fade>
+          </div>
         </div>
       </div>
     );
