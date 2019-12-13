@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/WasteManagement/static/css/main.57135f4c.chunk.css",
-    "main.js": "/WasteManagement/static/js/main.9d5e8277.chunk.js",
-    "main.js.map": "/WasteManagement/static/js/main.9d5e8277.chunk.js.map",
+    "main.js": "/WasteManagement/static/js/main.d5cd34f2.chunk.js",
+    "main.js.map": "/WasteManagement/static/js/main.d5cd34f2.chunk.js.map",
     "runtime-main.js": "/WasteManagement/static/js/runtime-main.6b22482b.js",
     "runtime-main.js.map": "/WasteManagement/static/js/runtime-main.6b22482b.js.map",
     "static/css/2.8ef44fce.chunk.css": "/WasteManagement/static/css/2.8ef44fce.chunk.css",
     "static/js/2.54c47e4c.chunk.js": "/WasteManagement/static/js/2.54c47e4c.chunk.js",
     "static/js/2.54c47e4c.chunk.js.map": "/WasteManagement/static/js/2.54c47e4c.chunk.js.map",
     "index.html": "/WasteManagement/index.html",
-    "precache-manifest.0c2098e5ff59e092acbac99f30ee1dec.js": "/WasteManagement/precache-manifest.0c2098e5ff59e092acbac99f30ee1dec.js",
+    "precache-manifest.e8a1f64917fb07ee547fa87dbdc82018.js": "/WasteManagement/precache-manifest.e8a1f64917fb07ee547fa87dbdc82018.js",
     "service-worker.js": "/WasteManagement/service-worker.js",
     "static/css/2.8ef44fce.chunk.css.map": "/WasteManagement/static/css/2.8ef44fce.chunk.css.map",
     "static/css/main.57135f4c.chunk.css.map": "/WasteManagement/static/css/main.57135f4c.chunk.css.map",
@@ -52,6 +52,6 @@
     "static/css/2.8ef44fce.chunk.css",
     "static/js/2.54c47e4c.chunk.js",
     "static/css/main.57135f4c.chunk.css",
-    "static/js/main.9d5e8277.chunk.js"
+    "static/js/main.d5cd34f2.chunk.js"
   ]
 }
