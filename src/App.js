@@ -319,7 +319,7 @@ class App extends React.Component {
                 <iframe
                   className="VideoWrapper"
                   title="video"
-                  src="https://www.youtube.com/embed/Tl6WZ1pZ4iQ?autoplay=1&loop=1"
+                  src="https://www.youtube.com/embed/Tl6WZ1pZ4iQ?loop=1"
                   frameborder="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen
@@ -351,7 +351,7 @@ class App extends React.Component {
                 <iframe
                   className="VideoWrapper"
                   title="video"
-                  src="https://www.youtube.com/embed/0zD1Ks4LaRg?autoplay=1&loop=1"
+                  src="https://www.youtube.com/embed/0zD1Ks4LaRg?loop=1"
                   frameborder="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen
