@@ -81,21 +81,36 @@
   background-color: rgba(184, 210, 185, 0.2);
 }
 
-.VideoContainer {
+.VideoContainerPrototype,
+.VideoContainerFinal {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
-  width: 30vw;
-  height: 0;
-  border-radius: 10px;
   overflow: hidden;
+  width: 20vw;
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 5px;
+  border-color: black;
+  background-color: black;
+  height: 0;
+}
+
+.VideoContainerPrototype {
+  padding-bottom: 54.2%; /* 16:9 */
+}
+
+.VideoContainerFinal {
+  padding-bottom: 59%; /* 16:9 */
 }
 
 .VideoWrapper {
+  border: 0;
+  height: 100%;
+  left: 0;
   position: absolute;
   top: 0;
-  left: 0;
   width: 100%;
-  height: 100%;
+
+  border-radius: 20px;
 }
 
 .FreeImageWrapper {
@@ -232,10 +247,11 @@
   position: absolute;
   right: 5vmin;
   display: flex;
+  align-items: center;
 }
 
 .SectionTitleIcon {
-  width: 11vh;
+  width: 10vw;
   z-index: 100;
   -webkit-filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
   filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));

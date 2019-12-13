@@ -315,7 +315,18 @@ class App extends React.Component {
               </div>
               <img className="DownArrowIcon" src={arrowDown} alt="" />
               <span>The prototype:</span>
-              <img className="FreeImageWrapper" src={highfiAllImages} alt="" />
+              <div className="VideoContainerPrototype">
+                <iframe
+                  className="VideoWrapper"
+                  title="video"
+                  src="https://www.youtube.com/embed/Tl6WZ1pZ4iQ?autoplay=1&loop=1"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                  loop="1"
+                  autoplay="1"
+                ></iframe>
+              </div>
               <span>The survey:</span>
               <Slideshow arrowColor="black" imgList={surveyImages} />
             </div>
@@ -336,16 +347,16 @@ class App extends React.Component {
               </div>
               <img className="DownArrowIcon" src={arrowDown} alt="" />
               <span>The final app:</span>
-              <div className="VideoContainer">
+              <div className="VideoContainerFinal">
                 <iframe
                   className="VideoWrapper"
                   title="video"
-                  width="100%"
-                  height="100%"
-                  src="https://www.youtube.com/embed/i_GksmA2eT8"
+                  src="https://www.youtube.com/embed/0zD1Ks4LaRg?autoplay=1&loop=1"
                   frameborder="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen
+                  loop="1"
+                  autoplay="1"
                 ></iframe>
               </div>
             </div>
